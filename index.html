@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>貪食蛇遊戲</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <canvas
+      id="myCanvas"
+      width="300"
+      height="300"
+      style="background-color: black"
+    ></canvas>
+    <div id="score">
+      <p id="myScore"></p>
+      <p id="myScore2"></p>
+    </div>
+    <button type="button" id="Start" onclick="location.reload()">
+      開始新遊戲
+    </button>
+    <div class="arrowControl">
+      <div class="Left">
+        <div class="arrow left">←</div>
+      </div>
+      <div class="Middle">
+        <div class="arrow up">↑</div>
+        <div class="arrow down">↓</div>
+      </div>
+      <div class="Right">
+        <div class="arrow right">→</div>
+      </div>
+      
+      
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
